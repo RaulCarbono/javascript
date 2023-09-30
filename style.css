@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+}   
+
+main {
+    color: beige;
+}
+
+.container_table {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    gap: 5px;
+}
+
+.header_options  {
+    display: grid;
+    height: 70px;
+    width: 250px;
+    border-radius: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.first_choice {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+.first_choice:hover{
+    background-color: darkorchid;
+}
+
+.midle_options {
+    display: grid;
+    height: 70px;
+    border-radius: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.midle_choice{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.midle_choice:hover{
+    background-color: darkorchid;
+}
+
+.end_options {
+    display: grid;
+    height: 70px;
+    border-radius: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    text-align: center;
+    text-wrap: wrap;
+}
+.end_choice{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.end_choice:hover{
+    background-color: darkorchid;
+}
